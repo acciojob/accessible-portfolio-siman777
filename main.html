@@ -9,22 +9,27 @@
 
 <body>
 	<!-- the entire body must be written by the student -->
-	<h1>My Portfolio</h1>
-	<img href="address" alt="profile photo">
-	<section>
+	<h1 role="heading">My Portfolio</h1>
+	<nav role="navigation">
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#projects">Projects</a>		
+	</nav>
+	<img href="address" alt="profile photo" role="img">
+	<section id="about">
 		<h2>Brief description</h2>
 		<p>I am a MERN stack developer and currently looking for a software developer role</p>
 	</section>
-	<section>
-		<h2>Skill</h2>
-		<ul>
-			<li>HTML,CSS,Javascript</li>
-			<li>MongoDb,React,NodeJs,Express</li>
-			<li>Git and Github</li>
-			<li>OOPS,DSA,CN,DBMS</li>
+	<section id="skills">
+		<h2>Skills</h2>
+		<ul role="list">
+			<li role="listitem">HTML,CSS,Javascript</li>
+			<li role="listitem">MongoDb,React,NodeJs,Express</li>
+			<li role="listitem">Git and Github</li>
+			<li role="listitem">OOPS,DSA,CN,DBMS</li>
 		</ul>
 	</section>
-	<section>
+	<section id="projects">
 		<h2>Projects</h2>
 		<a href="project_Link" >AI CarrerPortal</a>
 	</section>
